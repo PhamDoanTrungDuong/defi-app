@@ -1,7 +1,19 @@
+import About from "./components/About";
+import Developers from "./components/Developers";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Subcribe from "./components/Subcribe";
+
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div>
+      <Navbar />
+      <Hero />
+      <About />
+      <Developers />
+      <Subcribe />
+      <Footer />
     </div>
   );
 }
